@@ -1,0 +1,288 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>Jeff Chan | Software Engineer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="jc___1227, Chan Siaw Zheng, React, C#, API" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="Jeff Chan | Software Engineer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Chan Siaw Zheng</span>
+          <br />
+          I'm a Software Engineer.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Know more</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">A Little About Me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profilepic.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I am a passionate software enginner at RedONE with over half a year of professional experience. 
+              </br>
+              </br>
+                With a strong foundation in frontend development. 
+                I am skilled in full stack web development and also have experience working in both large and small team. 
+                I continuously stay updated with the latest industry trends and technologies to deliver cutting-edge solutions.
+              </br>
+              </br>
+                I graduated from Swinburne University of Technology in Melbourne while i currently based in Malaysia. Building software is not just a daytime jobs that i have, 
+                it is one of my passion and I'm most attracted to solving real customer problems with a business justification. 
+                I strongly believe that NOTHING IS IMPOSIBLE in the Tech Industry and eagerness to learn is the key to all problems.
+              </p>
+              <p class="about-wrapper__info-text">
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/JeffResume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">NYRET Design Co</h3>
+                <div>
+                  <p class="mb-4">
+                    An E-commerce Website that is developed using Wordpress Website Builder with WooCommerces. 
+                    This project include CRM integration such as Mailchimp, Theme Customisation, to provide better user experience and task automation. 
+                    All plugins are carefully selected to optimize speed and put security in consideration.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                >
+                Deprecated
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden" margin="0" width="90%">
+                <a rel="noreferrer" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project1.jpeg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">RedONE Network</h3>
+                <div>
+                  <p class="mb-4">
+                    RedONE Network Sdn Bhd was a Mobile Virtual Network Operator (MVNO) that provide mobile Postpaid services by using Celcom Axiata’s fast and reliable 5-star network infrastructure.
+                    It was build with Build Progressive Web App for the Prepaid DOB project using React JS, Ionic Native for frontend development and REST API for the interaction with the database for
+                    backend development.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://www.redone.com.my/en/"
+                >
+                  See Live
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden" margin="0" width="90%">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/RedONE.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Skill List Section **** -->
+    <section id="skilllist">
+      <div class="container">
+          <h2 class="section-title dark-blue-text">My Skill List</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+                <div>
+                  <p style="padding-bottom:10px">
+                    Through working on commercial project and from self taught learning material, 
+                    I am proud to say that I am experienced and familiar with these languages and frameworks.
+                  </p>
+                </div>
+                <div class="col-md-12 col-sm-12" style="padding-bottom:5%">
+                  <div>
+                    <img src="assets/HTML.png" alt="" width="75" height="75"> 
+                    <img src="assets/CSS.png" alt="" width="75" height="75"> 
+                    <img src="assets/JS.png" alt="" width="75" height="75"> 
+                    <img src="assets/TS.png" alt="" width="75" height="75"> 
+                    <img src="assets/ANGULAR.png" alt="" width="75" height="75"> 
+                    <img src="assets/GIT.png" alt="" width="75" height="75"> 
+                    <img src="assets/NETCORE.png" alt="" width="75" height="75"> 
+                    <img src="assets/IONIC.png" alt="" width="75" height="75"> 
+                  </div>
+                </div>
+          </div>
+        </div>
+      </section>
+          <!-- /END Project -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Have an Idea to share? I am more than happy to collaborate!</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:siawzheng1999@gmail.com"
+            >Get In Touch!</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/jeffchan0613" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/JeffChanSZ" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2023 - Template developed by
+          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
+            >Chan Siaw Zheng</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
